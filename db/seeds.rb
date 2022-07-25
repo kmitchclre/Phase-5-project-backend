@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+puts "☕ Seeding users..."
+user1 = User.create(username: "Kenny", password: "123")
+
+puts "Seeding products..."
+product1 = Product.create(name: "Optimum Nutrition Gold Standard® 100% Whey Protein", brand: "Optimum Nutrition", flavor: "Chocolate | 5lbs", price: 74.99 )
